@@ -16,3 +16,6 @@ if __name__ == '__main__':
 
         if not produto == '0':
             listaProdutos.append(produto)
+
+    print("Produtos Disponiveis")
+    print(sorted(produtosDiponiveis))
